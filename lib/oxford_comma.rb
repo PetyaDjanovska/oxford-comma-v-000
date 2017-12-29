@@ -5,8 +5,5 @@ def oxford_comma(array)
     string = String.New
     string << array[0...array.length-1].join(", ")
     string << array[-1].join("and ")
-    end
-
-
   end
 end
