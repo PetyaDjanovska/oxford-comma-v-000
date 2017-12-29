@@ -1,4 +1,5 @@
 def oxford_comma(array)
+  string = String.new
   if array.size == 1
     array
   elsif
